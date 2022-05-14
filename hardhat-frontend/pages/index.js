@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react'
 import styles from '../styles/Home.module.css'
 import Web3Modal from 'web3modal'
@@ -184,7 +185,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./crypto-devs.svg" />
+          <Image className={styles.image} src="./crypto-devs.svg" alt='whitelist' />
         </div>
       </div>
 
