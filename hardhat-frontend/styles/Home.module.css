@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .footer {
@@ -33,12 +36,12 @@
 }
 
 .button {
-  border-radius: 4px;
+  border-radius: 50px;
   background-color: blue;
   border: none;
   color: #ffffff;
   font-size: 15px;
-  padding: 20px;
+  padding: 15px;
   width: 200px;
   cursor: pointer;
   margin-bottom: 2%;
