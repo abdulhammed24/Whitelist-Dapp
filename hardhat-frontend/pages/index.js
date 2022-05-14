@@ -185,7 +185,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <Image className={styles.image} src="./crypto-devs.svg" alt='whitelist' />
+          <img className={styles.image} src="./crypto-devs.svg" alt='whitelist' />
         </div>
       </div>
 
